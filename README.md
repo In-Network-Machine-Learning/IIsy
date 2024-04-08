@@ -54,13 +54,6 @@ The files are licensed under Apache License: [LICENSE](./LICENSE). The text of t
 If you use this code, please cite our [papers](https://dl.acm.org/doi/abs/10.1145/3472716.3472846):
 
 ```
-@article{zheng2024automating,
-  title={{Planter: Rapid Prototyping of In-Network Machine Learning Inference}},
-  author={Zheng, Changgang and Zang, Mingyuan and Hong, Xinpeng and Perreault, Liam and Bensoussane, Riyad and Vargaftik, Shay and Ben-Itzhak, Yaniv and Zilberman, Noa},
-  journal={ACM SIGCOMM Computer Communication Review},
-  year={2024}
-}
-
 @article{zheng2024iisy,
   title={{IIsy: Hybrid In-Network Classification Using Programmable Switches}},
   author={Zheng, Changgang and Xiong, Zhaoqi and Bui, Thanh T and Kaupmees, Siim and Bensoussane, Riyad and Bernabeu, Antoine and Vargaftik, Shay and Ben-Itzhak, Yaniv and Zilberman, Noa},
@@ -68,6 +61,18 @@ If you use this code, please cite our [papers](https://dl.acm.org/doi/abs/10.114
   year={2024}
 }
 
+@article{zheng2024automating,
+  title={{Planter: Rapid Prototyping of In-Network Machine Learning Inference}},
+  author={Zheng, Changgang and Zang, Mingyuan and Hong, Xinpeng and Perreault, Liam and Bensoussane, Riyad and Vargaftik, Shay and Ben-Itzhak, Yaniv and Zilberman, Noa},
+  journal={ACM SIGCOMM Computer Communication Review},
+  year={2024}
+}
+```
+
+
+We are also excited to introduce several IIsy related papers ([Survey](https://ora.ox.ac.uk/objects/uuid:ffa3130b-140d-4e19-973a-c4800cfacf70/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_In-network_machine_learning.pdf&type_of_work=Journal+article), [DINC](https://ora.ox.ac.uk/objects/uuid:30f4bf57-95bb-4477-aa4d-77d0b9ce76b0/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_DINC_toward_distributed.pdf&type_of_work=Conference+item), and [QCMP](https://ora.ox.ac.uk/objects/uuid:43a1cd2a-0b5b-4570-9e88-bbb4d8df43a6/files/sgq67js54f)): 
+
+```
 @ARTICLE{10365500,
   title={{In-Network Machine Learning Using Programmable Network Devices: A Survey}}, 
   author={Zheng, Changgang and Hong, Xinpeng and Ding, Damu and Vargaftik, Shay and Ben-Itzhak, Yaniv and Zilberman, Noa},
@@ -76,12 +81,23 @@ If you use this code, please cite our [papers](https://dl.acm.org/doi/abs/10.114
   doi={10.1109/COMST.2023.3344351}
 }
 
-@incollection{zheng2021planter,
-  title={Planter: seeding trees within switches},
-  author={Zheng, Changgang and Zilberman, Noa},
-  booktitle={Proceedings of the SIGCOMM'21 Poster and Demo Sessions},
-  pages={12--14},
-  year={2021}
+@article{zheng2023dinc,
+  title={{DINC: Toward Distributed In-Network Computing}},
+  author={Zheng, Changgang and Tang, Haoyue and Zang, Mingyuan and Hong, Xinpeng and Feng, Aosong and Tassiulas, Leandros and Zilberman, Noa},
+  journal={Proceedings of the ACM on Networking},
+  volume={1},
+  number={CoNEXT3},
+  pages={1--25},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{zheng2023qcmp,
+  title={{QCMP: Load Balancing via In-Network Reinforcement Learning}},
+  author={Zheng, Changgang and Rienecker, Benjamin and Zilberman, Noa},
+  booktitle={Proceedings of the 2nd ACM SIGCOMM Workshop on Future of Internet Routing \& Addressing},
+  pages={35--40},
+  year={2023}
 }
 ```
 
