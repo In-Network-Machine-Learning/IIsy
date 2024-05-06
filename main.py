@@ -4,7 +4,7 @@ This file is part of the IIsy project.
 This program is a free software tool, which does hybrid in-network machine learning.
 licensed under Apache-2.0
 
-Copyright (c) Computing Infrastructure Group, Department of Engineering Science, University of Oxford
+Copyright (c) VMware Research(by Broadcom) & Computing Infrastructure Group, Department of Engineering Science, University of Oxford
 E-mail: changgang.zheng@eng.ox.ac.uk (valid until July 2024) or changgangzheng@qq.com (no expiration date)
 
 Created on 19.11.2019
