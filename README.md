@@ -1,6 +1,6 @@
 # IIsy: Practical & Hybrid In-network ML Classification
 
-IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. 💡**IIsy's model mapping for in-network ML is now integrated in Plnater [link].**
+IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. 💡**IIsy's model mapping for in-network ML is now integrated in Planter [link].**
 
 <img src="src/IIsy.png" width = "500"  align= left/>
 
