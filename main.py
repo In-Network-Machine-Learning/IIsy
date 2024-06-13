@@ -5,7 +5,7 @@ This program is a free software tool, which does hybrid in-network machine learn
 licensed under Apache-2.0
 
 Copyright (c) VMware Research(by Broadcom) & Computing Infrastructure Group, Department of Engineering Science, University of Oxford
-E-mail: changgang.zheng@eng.ox.ac.uk (valid until July 2024) or changgangzheng@qq.com (no expiration date)
+E-mail: changgang.zheng@eng.ox.ac.uk or changgangzheng@qq.com (no expiration date)
 
 Created on 19.11.2019
 @author: Shay Vargaftik, Changgang Zheng
@@ -67,12 +67,6 @@ def predict(clf, switch_test_confidence):
 
     precision = precision_score(y_test, clf_res, pos_label=0, zero_division=0, average='macro')
     recall = recall_score(y_test, clf_res, pos_label=0, zero_division=0, average='macro')
-
-    # precision_normal_switch = compare_results['switch_normal_precision']
-    # precision_normal_server = compare_results['server_normal_precision']
-    #
-    # precision_anomaly_switch = compare_results['switch_anomaly_precision']
-    # precision_anomaly_server = compare_results['server_anomaly_precision']
 
     switch_accuracy = compare_results['switch_accuracy']
     server_accuracy = compare_results['server_accuracy']
