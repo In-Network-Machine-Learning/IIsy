@@ -12,15 +12,14 @@ IIsy introcuces hybrid in-network ML deployment which employs a small in-network
      vim src/<dataset name>_dataset.py
      ```
      Open the main file by using ```vim main.py``` and change the load data name code such as:
-     
-	  
-	  ```
-	  from src.Iris_dataset import load_data
-	  ...
-	  features_subset = ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
-	  ...
-	  X_train, y_train, X_test, y_test, used_features = load_data(4, './Data')
-	  ```
+  
+     ```
+     from src.Iris_dataset import load_data
+     ...
+     features_subset = ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
+     ...
+     X_train, y_train, X_test, y_test, used_features = load_data(4, './Data')
+     ```
     
 - Change the parameters (e.g., model size, depth, and used features) for the small in-network ML model on the network device and a large ML model over the end-point.
 		
