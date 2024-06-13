@@ -78,8 +78,7 @@ def predict(clf, switch_test_confidence):
 
 
 if __name__ == "__main__":
-
-    # folderName = 'switch-model-unsw'
+    
     folderName = 'IIsy'
     n_jobs = 8
     load_model = False
