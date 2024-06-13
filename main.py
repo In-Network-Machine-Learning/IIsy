@@ -78,7 +78,7 @@ def predict(clf, switch_test_confidence):
 
 
 if __name__ == "__main__":
-    
+
     folderName = 'IIsy'
     n_jobs = 8
     load_model = False
@@ -97,8 +97,6 @@ if __name__ == "__main__":
     switch_filter = 'all'
 
     #check_estimator(switchMLClassifier)
-            
-    # X, y = UNSW_NB15_binary() #mushroom() #krkopt() #seismic() #car() #cmc() #car() #abalone() #communities() #yeast() #mammography() #letter() #covertype() #UNSW_NB15() #kddcup99() #iris() #wine()
 
     X_train, y_train, X_test, y_test, used_features = load_data(4, './Data')
 
@@ -157,7 +155,7 @@ if __name__ == "__main__":
         clf.set_params(**params)
         clf.fit(X_train, y_train)
 
-    confidence = [x/100 for x in range(50, 102, 2)] #i/25 for i in range(12, 25, 1)] + [1]
+    confidence = [x/100 for x in range(50, 102, 2)] 
 
     res_f = []
     res_a = []
