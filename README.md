@@ -1,6 +1,6 @@
 # IIsy: Practical & Hybrid In-network ML Classification
 
-IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. This is the artifact for the paper "IIsy: Hybrid In-Network Classification Using Programmable Switches" in IEEE/ACM Transactions on Networking (with early [arXiv](https://arxiv.org/pdf/2205.08243) version named "IIsy: Practical In-Network Classification"). 💡**IIsy's model mapping for in-network ML is now integrated in Planter [link](https://github.com/In-Network-Machine-Learning/Planter).**
+IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. This is the artifact for the paper "[IIsy: Hybrid In-Network Classification Using Programmable Switches](https://doi.org/10.1109/TNET.2024.3364757)" in IEEE/ACM Transactions on Networking (with early arXiv version named "[IIsy: Practical In-Network Classification](https://arxiv.org/pdf/2205.08243)"). 💡**IIsy's model mapping for in-network ML is now integrated in Planter [link](https://github.com/In-Network-Machine-Learning/Planter).**
 
 <img src="src/IIsy.png" width = "500"  align= left/>
 
