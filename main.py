@@ -155,7 +155,7 @@ if __name__ == "__main__":
         clf.set_params(**params)
         clf.fit(X_train, y_train)
 
-    confidence = [x/100 for x in range(50, 102, 2)] 
+    confidence = [x/100 for x in range(50, 102, 2)]
 
     res_f = []
     res_a = []
