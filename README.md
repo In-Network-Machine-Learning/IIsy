@@ -1,6 +1,6 @@
 # IIsy: Practical & Hybrid In-network ML Classification
 
-IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. 💡**IIsy's model mapping for in-network ML is now integrated in Planter [link].**
+IIsy introcuces hybrid in-network ML deployment which employs a small in-network ML model on the network device and a large ML model over the end-point. 💡**IIsy's model mapping for in-network ML is now integrated in Planter [link](https://github.com/In-Network-Machine-Learning/Planter).**
 
 <img src="src/IIsy.png" width = "500"  align= left/>
 
@@ -70,36 +70,7 @@ If you use this code, please cite our [papers](https://dl.acm.org/doi/abs/10.114
 ```
 
 
-We are also excited to introduce several IIsy related papers ([Survey](https://ora.ox.ac.uk/objects/uuid:ffa3130b-140d-4e19-973a-c4800cfacf70/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_In-network_machine_learning.pdf&type_of_work=Journal+article), [DINC](https://ora.ox.ac.uk/objects/uuid:30f4bf57-95bb-4477-aa4d-77d0b9ce76b0/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_DINC_toward_distributed.pdf&type_of_work=Conference+item), and [QCMP](https://ora.ox.ac.uk/objects/uuid:43a1cd2a-0b5b-4570-9e88-bbb4d8df43a6/files/sgq67js54f)): 
-
-```
-@ARTICLE{10365500,
-  title={{In-Network Machine Learning Using Programmable Network Devices: A Survey}}, 
-  author={Zheng, Changgang and Hong, Xinpeng and Ding, Damu and Vargaftik, Shay and Ben-Itzhak, Yaniv and Zilberman, Noa},
-  journal={IEEE Communications Surveys & Tutorials}, 
-  year={2023},
-  doi={10.1109/COMST.2023.3344351}
-}
-
-@article{zheng2023dinc,
-  title={{DINC: Toward Distributed In-Network Computing}},
-  author={Zheng, Changgang and Tang, Haoyue and Zang, Mingyuan and Hong, Xinpeng and Feng, Aosong and Tassiulas, Leandros and Zilberman, Noa},
-  journal={Proceedings of the ACM on Networking},
-  volume={1},
-  number={CoNEXT3},
-  pages={1--25},
-  year={2023},
-  publisher={ACM New York, NY, USA}
-}
-
-@inproceedings{zheng2023qcmp,
-  title={{QCMP: Load Balancing via In-Network Reinforcement Learning}},
-  author={Zheng, Changgang and Rienecker, Benjamin and Zilberman, Noa},
-  booktitle={Proceedings of the 2nd ACM SIGCOMM Workshop on Future of Internet Routing \& Addressing},
-  pages={35--40},
-  year={2023}
-}
-```
+We are also excited to introduce several IIsy related papers ([Survey](https://ora.ox.ac.uk/objects/uuid:ffa3130b-140d-4e19-973a-c4800cfacf70/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_In-network_machine_learning.pdf&type_of_work=Journal+article), [DINC](https://ora.ox.ac.uk/objects/uuid:30f4bf57-95bb-4477-aa4d-77d0b9ce76b0/download_file?file_format=application%2Fpdf&safe_filename=Zheng_et_al_2023_DINC_toward_distributed.pdf&type_of_work=Conference+item), and [QCMP](https://ora.ox.ac.uk/objects/uuid:43a1cd2a-0b5b-4570-9e88-bbb4d8df43a6/files/sgq67js54f)) in the [link](https://github.com/In-Network-Machine-Learning/Planter/blob/main/Docs/Projects.md).
 
 ## Acknowledgments
 The following people contributed to this project: Changgang Zheng, Zhaoqi Xiong, Thanh T Bui, Siim Kaupmees, Riyad Bensoussane, Antoine Bernabeu, Shay Vargaftik, Yaniv Ben-Itzhak, and Noa Zilberman. This work was partly funded by VMware, EU Horizon SMARTEDGE (101092908, UKRI 10056403), Leverhulme Trust (ECF-2016-289) and Isaac Newton Trust. We acknowledge support from Intel. 
